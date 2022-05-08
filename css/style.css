@@ -392,7 +392,14 @@ input:focus {
 }
 
 .brand-div{
-    width:75%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-img{
+    width: 20%;
 }
 
 /* Testimonials section styling */
@@ -580,3 +587,701 @@ footer {
     color: #939191;
     font-size: 12px;
 }
+
+@media(max-width: 426px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section ul {
+        flex-direction: column;
+    }
+
+    .right-section ul li {
+        padding-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .right-section ul li a {
+        display: block;
+    }
+
+    .navigation {
+        border: none;
+        width: 100%;
+    }
+
+    .road-assistance {
+        align-items: flex-start;
+    }
+
+    .road-assistance .call-logo {
+        margin-left: 0px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .text-section {
+        width: 100%;
+        padding: 0px;
+        order: 2;
+    }
+
+    .text-section h1 {
+        font-size: 32px;
+    }
+
+    .text-section a {
+        margin-bottom: 30px;
+    }
+
+    .image-section {
+        width: 100%;
+        order: 1;
+        margin-bottom: 50px;
+}
+
+
+/* mobile view */
+@media (max-width: 450px) {
+
+    /* Navigation section */
+    .main-header{
+        align-items: flex-start;
+    }
+    .flex-direction {
+        flex-direction: column;
+    }
+
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section .navigation ul {
+        flex-direction: column;
+
+    }
+
+    .right-section .navigation {
+        border: none;
+        width: 100%;
+    }
+
+    .right-section ul li {
+        padding: 10px 0;
+        margin-right: 0;
+    }
+
+    .right-section ul li a {
+        display: block;
+    }
+
+    .road-assistance {
+        padding: 10px 0;
+    }
+
+/* Hero section */
+    #hero-section .image-section{
+        width: 100%;
+        margin: auto;
+    }
+
+    #hero-section .text-section {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    #hero-section .image-box{
+        order: 1;
+    }
+
+    .text-section .time-text{
+        width: 80%;
+        order: 2;
+    }
+
+    .text-section .time-section{
+        justify-content: center;
+    }
+
+    .text-section h1 {
+        font-size: 25px;
+    }
+    .orange-btn {
+        padding: 14px 30px;
+        font-size: 16px;
+    }
+    #quote-section .left-section .text-box {
+        width: 100%;
+    }
+    #quote-section .left-section h2{
+        width: 100%;
+        font-size: 23px;
+        text-align: center;
+    }
+    #quote-section .left-section .text-box h5 {
+        font-size: 20px;
+    }
+    #quote-section .left-section .text-box h5 p{
+        font-size: 14px;
+    }
+    #quote-section .left-section .image-box img {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .right-form-section{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #quote-section .right-form-section h3 {
+        font-size: 23px;
+    }
+    
+    /* Process section */
+
+    .lefthand-section {
+        width: 100%;
+        text-align: center;
+    }
+    .lefthand-section h2 {
+        font-size: 23px;
+    }
+    .lefthand-section p{
+        font-size: 14px;
+    }
+    .righthand-section {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .vertical-line {
+        border-left: 4px dotted #FF6433;
+        height: 60px;
+        margin-left: 6.5%;
+        margin-top: -60px;
+    }
+    .get-quote h4 {
+        font-size: 22px;
+    }
+    .get-quote p{
+        font-size: 14px;
+    }
+    /* Offer section */
+
+    #our-offering h2 {
+        width: 100%;
+        font-size: 23px;
+    }
+    .flex-box {
+        height: 140px;
+        width: 140px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .flex-box p{
+        font-size: 14px;
+    }
+    .offer-link{
+        justify-content: center;
+    }
+
+    /* Contactus section */
+    .contact-bg2{
+        display: none;
+    }
+    .contact-bg{
+        width: 100%;
+        height: 40vh;
+    }
+    .contact-flexbox {
+        display: flex;
+        height: 40vh;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    .flexbox-text{
+        max-height: 40vh;
+        width: 100%;
+    }
+    .flexbox-text h4 {
+        font-size: 16px;
+        width: 95%;
+    }
+    .black-btn{
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    .button{
+        margin: 10px auto 0 auto;
+    }
+    .flex-properties{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .professional{
+        width: 45%;
+    }
+    .experience{
+        width: 45%;
+    }
+    .service-closed{
+        width: 45%;
+    }
+    .satisfaction{
+        width: 45%;
+    }
+    .rating-amount{
+        font-size: 28px;
+    }
+    .finsweet-ratings p{
+        font-size: 14px;
+    }
+
+    /* our brands */
+    .our-brands h2{
+        font-size: 38px;
+    }
+    .flex-mobile{
+        display: flex;
+    }
+    .brand-img{
+        width: 45%;
+    }
+    .brand-img img{
+        width: 90%;
+    }
+
+    .brandImg-1{
+        margin: auto;
+    }
+    #sixth-section {
+        padding-bottom: 50px;
+    }
+
+    #sixth-section h2 {
+        font-size: 24px;
+        padding: 0px 0px 30px 0px;
+    }
+
+    #sixth-section .comments {
+        flex-direction: column;
+    }
+
+    .comment {
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 24px;
+    }
+
+    .comments .top-section {
+        padding-bottom: 12px;
+    }
+
+    .comment p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .lines img, .swipe-arrows .black{
+        display: none;
+    }
+
+    #seventh-section {
+        padding: 50px 0px;
+    }
+
+    #seventh-section h2 {
+        padding-bottom: 30px;
+        font-size: 26px
+    }
+
+    .question {
+        margin-bottom: 6px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .question .heading h4 {
+        font-size: 12px
+    }
+
+    .question p {
+        padding-right: 0px;
+        font-size: 10px;
+        width: 90%;
+        padding-top: 5px;
+    }
+
+    #last-section {
+        padding: 50px 0px;
+    }
+
+    #last-section .last-section {
+        flex-direction: column;
+    }
+
+    .last-section-left {
+        width: 100%;
+    }
+
+    .last-section-right {
+        width: 100%;
+    }
+
+    .last-section-left h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .social-media-section {
+        padding-bottom: 30px;
+    }
+
+    .last-section-right .text {
+        font-size: 10px;
+    }
+
+    .last-section-right .number {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        padding-bottom: 20px;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-navigation {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-navigation ul {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .footer-navigation ul li {
+        margin-right: 0px;
+        padding-bottom: 20px;
+    }
+
+    .footer-navigation ul li a {
+        display: block;
+    }
+}
+
+
+
+
+    @media screen and (min-width:450px) and (max-width: 769px) {
+
+        /* Navigation section */
+        .main-header{
+            align-items: flex-start;
+        }
+        .flex-direction {
+            flex-direction: column;
+        }
+    
+        .right-section {
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            display: none;
+        }
+    
+        .right-section .navigation ul {
+            flex-direction: column;
+    
+        }
+    
+        .right-section .navigation {
+            border: none;
+            width: 100%;
+        }
+    
+        .right-section ul li {
+            padding: 10px 0;
+            margin-right: 0;
+        }
+    
+        .right-section ul li a {
+            display: block;
+        }
+    
+        .road-assistance {
+            padding: 10px 0;
+        }
+    
+        /* Hero section */
+        #hero-section .image-section{
+            width: 100%;
+            margin: auto;
+        }
+    
+        #hero-section .text-section {
+            order: 2;
+            width: 100%;
+            text-align: center;
+        }
+    
+        #hero-section .image-box{
+            order: 1;
+        }
+        
+        .text-section .time-text{
+            width: 60%;
+            order: 2;
+        }
+    
+        .text-section h1 {
+            font-size: 30px;
+        }
+        .text-section .time-section{
+            justify-content: center;
+        }
+        #quote-section .left-section .text-box {
+            width: 100%;
+        }
+        #quote-section .left-section h2{
+            width: 100%;
+            font-size: 55px;
+            text-align: center;
+        }
+        #quote-section .left-section .text-box h5 {
+            font-size: 28px;
+        }
+        #quote-section .left-section .text-box p{
+            font-size: 18px;
+        }
+        #quote-section .left-section .image-box img {
+            width: 100%;
+            margin-top: 5px;
+        }
+        .right-form-section{
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+         /* Process section */
+    
+         .lefthand-section {
+            width: 100%;
+            text-align: center;
+        }
+        .lefthand-section p {
+            font-size: 18px;
+        }
+        .lefthand-section h2 {
+            font-size: 45px;
+        }
+        .righthand-section {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    
+        .get-quote{
+            width: 70%;
+        }
+        .vertical-line {
+            border-left: 4px dotted #FF6433;
+            height: 60px;
+            text-align: center;
+        }
+    
+        /* Offer section */
+    
+        #our-offering h2 {
+            width: 100%;
+            font-size: 38px;
+        }
+        .flex-box {
+            height: 200px;
+            width: 200px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+        .flex-box img {
+            padding-top: 15px;
+        }
+        .offer-link{
+            justify-content: center;
+        }
+        .offer-link a {
+            font-size: 18px;
+        }
+    
+        /* Contactus section */
+        .contact-bg2{
+            display: none;
+        }
+        .contact-bg{
+            width: 100%;
+            height: 30vh;
+        }
+        .contact-flexbox {
+            height: 30vh;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        .flexbox-text h4 {
+            font-size: 26px;
+        }
+        .flex-properties{
+            flex-wrap: wrap;
+            width: 100%;
+            text-align: center;
+        }
+        .rating-amount{
+            font-size: 30px;
+        }
+        .finsweet-ratings p{
+            font-size: 16px;
+        }
+    
+            /* our brands */
+            .brand-div{
+                width: 100%;
+                margin: auto;
+            }
+            .our-brands h2{
+                font-size: 38px;
+            }
+            .flex-mobile{
+                display: flex;
+            }
+            .brand-img{
+                width: 45%;
+                margin-right: 5%;
+            }
+            .brandImg{
+                width: 90%;
+            }
+            .brandImg-1{
+                margin: auto;
+            }
+
+            #sixth-section h2 {
+                font-size: 34px;
+                padding: 0px 0px 30px 0px;
+            }
+        
+            .comment {
+                padding: 30px;
+            }
+        
+            .comments .top-section {
+                padding-bottom: 18px;
+            }
+        
+            .comment p {
+                font-size: 16px;
+            }
+        
+            #seventh-section h2 {
+                font-size: 30px;
+                padding-bottom: 40px;
+            }
+        
+            .question {
+                width: 80%;
+                padding: 20px;
+            }
+        
+            .question .heading h4 {
+                font-size: 16px;
+            }
+        
+            .question p {
+                font-size: 12px;
+                line-height: 20px;
+            }
+        
+            #last-section {
+                padding: 60px 0px;
+            }
+        
+            .last-section-left h2 {
+                font-size: 34px;
+                padding-bottom: 50px;
+            }
+        
+            .last-section-right .text {
+                font-size: 11px;
+            }
+        
+            .last-section-right .number {
+                font-size: 14px;
+                padding-bottom: 20px;
+            }
+        
+            .main-footer {
+                align-items: stretch;
+                justify-content: space-around;
+            }
+        
+            .footer-right {
+                flex-direction: column;
+            }
+        
+            .footer-navigation ul {
+                margin-right: 0px;
+            }
+        
+            .copyright {
+                margin-top: 20px;
+            }
+        
+            
+        }   
+
+
+
+            @media screen and (min-width:769px)and (max-width:1050px){
+                #hero-section .image-section {
+                    width: 45%;
+                    min-height: 50vh;
+                }
+                .quote-align{
+                    justify-content: space-between;
+                }
+                .text-section h1 {
+                    font-size: 50px;
+                }
+                .brand-img{
+                    width: 20%;
+                }
+                .brandImg{
+                    width: 90%;
+                }
+            }
