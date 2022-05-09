@@ -115,9 +115,9 @@
     background: #E2E6E9;
 }
 
-#quote-section .left-section, #quote-section .right-form-section {
+/* #quote-section .left-section, #quote-section .right-form-section {
     width: 45%;
-}
+} */
 
 #quote-section ul {
     list-style: none;
@@ -128,12 +128,13 @@
 }
 
 #quote-section .left-section h2 {
+    width: 90%;
     margin-bottom: 30px;
     font-size: 58px;
 }
 
 #quote-section .left-section .image-box {
-    width: 5%;
+    width: 6%;
     margin-right: 10px;
 }
 
@@ -325,6 +326,9 @@ input:focus {
 }
 
 .contact-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 40%;
     background-color: #FF6433;
     height: 40vh;
@@ -332,7 +336,6 @@ input:focus {
 }
 
 .flexbox-text h4 {
-    padding-top: 60px;
     text-align: center;
     margin: auto;
     width: 80%;
@@ -354,6 +357,7 @@ input:focus {
 }
 
 .flex-properties {
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     justify-content: space-between;
@@ -379,9 +383,12 @@ input:focus {
 }
 
 
-/* styling brands section */
+/* styling brands-section */
+.our-brands {
+    margin: auto;
+}
 .our-brands h2 {
-    font-size: 44px;
+    font-size: 43px;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -394,12 +401,15 @@ input:focus {
 .brand-div{
     flex-wrap: wrap;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .brand-img{
     width: 20%;
+}
+.brand-img img{
+    width: 70%;
 }
 
 /* Testimonials section styling */
@@ -872,6 +882,7 @@ footer {
     .brandImg-1{
         margin: auto;
     }
+
     #sixth-section {
         padding-bottom: 50px;
     }
